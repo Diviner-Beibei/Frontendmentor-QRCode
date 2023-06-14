@@ -18,13 +18,16 @@ body{
   font-size: 15px;
   font-family: var(--font-family);
   background-color: var(--light-gray);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .qr-container {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  margin-top: 10rem;
+  /* margin: 0 auto;
+  margin-top: 10rem; */
   text-align: center;
   padding: 1.3rem;
   background-color: var(--white);
@@ -58,8 +61,8 @@ body{
   margin-top: 1rem;
 }
 
-@media screen and (max-width: 1020px) {
+/* @media screen and (max-width: 1020px) {
   .qr-container {
     margin-top: 5rem;
   }
-}
+} */
